@@ -154,7 +154,7 @@ func (t *SimpleChaincode) Init(stub shim.ChaincodeStubInterface, function string
 }
 
 func (t *SimpleChaincode) Invoke(stub shim.ChaincodeStubInterface, function string, args []string) ([]byte, error) {
-
+//test fun
 	if function == "createOrder" {
 
 		return createOrder(stub, args)
