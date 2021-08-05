@@ -1,2 +1,2 @@
 # autoMvp
-this contains automvp go code
+this contains automvp go chaincode
